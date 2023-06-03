@@ -30,22 +30,22 @@ function greetBG() {
         hour = today.getHours();
 
     if (hour >= 5) {
-        document.body.style.backgroundImage = "url('../imgs/morning.jpg')";
+        document.body.style.backgroundImage = "url('imgs/morning.jpg')";
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Morning'
     }
     if (hour >= 12) {
-        document.body.style.backgroundImage = "url('../imgs/afternoon.jpg')"
+        document.body.style.backgroundImage = "url('imgs/afternoon.jpg')"
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Afternoon'
     }
     if (hour >= 16) {
-        document.body.style.backgroundImage = "url('../imgs/evening.jpg')"
+        document.body.style.backgroundImage = "url('imgs/evening.jpg')"
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Evening'
     }
     if (hour >= 20) {
-        document.body.style.backgroundImage = "url('../imgs/night.jpg')"
+        document.body.style.backgroundImage = "url('imgs/night.jpg')"
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Evening'
         document.body.style.color="white"
